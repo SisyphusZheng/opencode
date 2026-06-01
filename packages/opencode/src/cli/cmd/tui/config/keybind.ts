@@ -147,6 +147,7 @@ export const Definitions = {
 
   prompt_submit: keybind("none", "Submit prompt"),
   prompt_editor_context_clear: keybind("none", "Clear editor context"),
+  permission_auto_accept_toggle: keybind("none", "Toggle auto-accept mode for edit permissions"),
   prompt_skills: keybind("none", "Open skill selector"),
   prompt_stash: keybind("none", "Stash prompt"),
   prompt_stash_pop: keybind("none", "Pop stashed prompt"),
@@ -341,6 +342,7 @@ export const CommandMap = {
   display_thinking: "session.toggle.thinking",
   prompt_submit: "prompt.submit",
   prompt_editor_context_clear: "prompt.editor_context.clear",
+  permission_auto_accept_toggle: "permission.auto_accept.toggle",
   prompt_skills: "prompt.skills",
   prompt_stash: "prompt.stash",
   prompt_stash_pop: "prompt.stash.pop",
